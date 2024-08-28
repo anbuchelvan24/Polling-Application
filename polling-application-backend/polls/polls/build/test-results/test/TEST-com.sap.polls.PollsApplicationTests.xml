@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sap.polls.PollsApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-02-03T12:21:24" hostname="ANBU-PC" time="0.605">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.sap.polls.PollsApplicationTests" time="0.605"/>
+  <system-out><![CDATA[Standard Commons Logging discovery in action with spring-jcl: please remove commons-logging.jar from classpath in order to avoid potential conflicts
+17:51:23.490 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.sap.polls.PollsApplicationTests]: PollsApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:51:23.571 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.sap.polls.PollsApplication for test class com.sap.polls.PollsApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.2)
+
+2024-02-03T17:51:23.869+05:30  INFO 31444 --- [    Test worker] com.sap.polls.PollsApplicationTests      : Starting PollsApplicationTests using Java 21.0.2 with PID 31444 (started by anbuc in C:\Users\anbuc\Downloads\polls\polls)
+2024-02-03T17:51:23.871+05:30  INFO 31444 --- [    Test worker] com.sap.polls.PollsApplicationTests      : No active profile set, falling back to 1 default profile: "default"
+2024-02-03T17:51:24.754+05:30  INFO 31444 --- [    Test worker] com.sap.polls.PollsApplicationTests      : Started PollsApplicationTests in 1.051 seconds (process running for 1.983)
+]]></system-out>
+  <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\anbuc\.gradle\caches\modules-2\files-2.1\net.bytebuddy\byte-buddy-agent\1.14.11\f9cb566608fbac6bc7bf54901a7aa11543a989ee\byte-buddy-agent-1.14.11.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+</testsuite>
