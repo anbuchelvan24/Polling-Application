@@ -1,6 +1,0 @@
-CURL COMMAND TO CREATE POLL:
-
-Invoke-WebRequest -Uri 'http://localhost:8080/create' -Method POST -Headers @{
-    'Content-Type' = 'application/json'
-} -Body '{"poll_name":"test-poll1", "creator":"anbuu","question":"What is my favi color","options":["abcd","efgh","hijk"],"answered":["alusa"]}'
-
